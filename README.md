@@ -14,3 +14,7 @@ date, name, title, url, LGTM
   * ex: `const GOTO_ADVENT_URL = "https://qiita.com/advent-calendar/2020/javascript"`
 * terminalに`node index`で実行。
 * `yyyy_m_d_h_i.csv`が吐き出されるので煮るなり焼くなりスプレッドシートにインポートするなりしてください。
+
+## 補足
+記事がqiitaかnoteしかいない前提になってます(該当箇所コメントあり)。
+それ以外のサイトが有る場合はちょこっと弄ってください。
