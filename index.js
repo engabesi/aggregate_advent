@@ -43,6 +43,8 @@ const extractLGTM = async (page, adventPages) => {
       url: adventPage.url,
       LGTM: lgtm,
     })
+    // 負荷がかからないよう、1秒waitつける
+    await page.waitForTimeout(1000)
   }
   return _obj
 }
